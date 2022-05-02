@@ -49,4 +49,5 @@
 
 
   ## Additional Info
-  - Some aspects of this application may not work.
+  - Link to walkthrough video: 
+  - [walkthrough](https://drive.google.com/file/d/1_vH5Zh0wwjtCRuUtLIu2yaylGQ9mTp3R/view)
