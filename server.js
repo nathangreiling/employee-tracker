@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const cTable = require('console.table');
 
 const db = mysql.createConnection(
@@ -9,7 +9,6 @@ const db = mysql.createConnection(
     password: 'NGex7g9hq2yw1NG!',
     database :'employee_tracker_db'
     },
-    console.log('Connected to database.')
     );
 
 
