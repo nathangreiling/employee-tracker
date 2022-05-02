@@ -98,7 +98,6 @@ let addDepartments = () => {
         function(err, res) {
             if (err)
             throw err;
-            console.table(res);
             onStart();
         });
     });
@@ -159,7 +158,6 @@ let addEmployees = () => {
         function(err, res) {
             if (err)
             throw err;
-            console.table(res);
             onStart();
         });
     });
@@ -182,7 +180,6 @@ let updateRoles = () => {
     function(err,res) {
         if (err)
         throw err;
-        console.table(res);
         onStart();
     });
 });
